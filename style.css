@@ -1,55 +1,55 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     min-height: 100vh;
-    background-color: rgb(46, 35, 36);
-}
-#btn {
-    margin-bottom: 30px;
     background-color: rgb(243, 181, 186);
+}
+button {
+
+    background-color: rgb(177, 97, 104);
     font-size: 12px;
     padding: 5px 20px;
     border-radius: 8px;
-}
-
-#btn:hover {
-    background-color: rgb(122, 59, 95);
     color: white;
 }
-#btn:active {
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+
+button:hover {
+    background-color: rgb(155, 36, 74);
+    color: white;
+}
+button:active {
     background-color: black;
     color: white;
 }
 
+
 #container {
-    background-color: rgb(243, 181, 186);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     width: 600px;
     height: 600px;
-
-
+    border: 2px solid rgb(68, 31, 52);
 }
 
 .grid-item {
-
-    border: 1px solid rgb(164, 35, 80);
-    box-sizing: border-box;
-
-    
-
-
-    
-}
-
-
-
-.grid-item:hover {
-    background-color: black;
+    border: 0.5px solid rgb(0, 0, 0);
+    box-sizing: border-box;   
 }
 
 .active {
-    background-color: #000;
+    background-color: black;
 }
+
+/* .activeColour {
+    background-color: palevioletred;
+} */
